@@ -21,6 +21,9 @@ Once you've done the above, simply invoke the script by typing:
 nato Test String
 ```
 
+> You may need to make the script executable.  Use the 
+> `chmod 700 /PATH/TO/nato` to do so.
+
 ## Examples
 
 ```
