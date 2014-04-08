@@ -1,0 +1,43 @@
+#!/usr/bin/env ruby
+
+nato = {
+    :A => "Alpha",
+    :B => "Beta",
+    :C => "Charlie",
+    :D => "Delta",
+    :E => "Echo",
+    :F => "Foxtrot",
+    :G => "Golf",
+    :H => "Hotel",
+    :I => "India",
+    :J => "Juliet",
+    :K => "Kilo",
+    :L => "Lima",
+    :M => "Mike",
+    :N => "November",
+    :O => "Oscar",
+    :P => "Papa",
+    :Q => "Quebec",
+    :R => "Romeo",
+    :S => "Sierra",
+    :T => "Tango",
+    :U => "Uniform",
+    :V => "Victor",
+    :W => "Whiskey",
+    :X => "Xray",
+    :Y => "Yankee",
+    :Z => "Zulu"
+}
+
+original_string = ARGV.join " "
+phonetic_string = ""
+
+original_string.each_char do |c|
+  if nato.has_key?(c.upcase.to_sym)
+    phonetic_string += "#{nato[c.upcase.to_sym]} "
+  else
+    phonetic_string += "#{c}"
+  end
+end
+
+puts phonetic_string
