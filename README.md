@@ -3,6 +3,10 @@
 `nato` is a [Ruby][1] script for converting a given string to its NATO
 phonetic equivalent.
 
+## Version
+
+The current version of `nato` is `0.0.1`.
+
 ## Installation
 
 [Clone the repository][2].  Place the file somewhere in [your path][3].
