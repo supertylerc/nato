@@ -1,5 +1,9 @@
 #!/usr/bin/env ruby
 
+# Author  : Tyler Christiansen
+# License : BSD 2-Clause
+# Updated : 2014-06-24_1103 -0700
+
 nato = {
     :A => "Alpha",
     :B => "Beta",
