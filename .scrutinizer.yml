@@ -1,0 +1,9 @@
+---
+# language: ruby
+tools:
+  rubocop: true
+    ruby_analyzer:
+      config:
+        metrics: true
+        duplication_detector:
+          enabled: true
