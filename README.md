@@ -1,4 +1,4 @@
-# nato
+# nato [![Build Status](https://travis-ci.org/supertylerc/nato.svg?branch=master)](https://travis-ci.org/supertylerc/nato)
 
 `nato` is a [Ruby][1] script for converting a given string to its NATO
 phonetic equivalent.
