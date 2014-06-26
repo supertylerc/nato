@@ -33,7 +33,7 @@ class Nato
     }
   end
 
-  def translate s
+  def translate(s)
     phonetic_string = ''
     s.split('').each do |c|
       if @nato.key?(c.upcase.to_sym)
