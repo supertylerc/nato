@@ -1,5 +1,5 @@
 # encoding: UTF-8
-require_relative '../nato'
+require_relative '../lib/nato'
 require 'minitest/autorun'
 
 class TestNato < Minitest::Test
