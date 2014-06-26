@@ -1,4 +1,4 @@
-# nato [![Build Status](https://travis-ci.org/supertylerc/nato.svg?branch=master)](https://travis-ci.org/supertylerc/nato)
+# nato [![Build Status](https://travis-ci.org/supertylerc/nato.svg?branch=master)](https://travis-ci.org/supertylerc/nato) [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/supertylerc/nato/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/supertylerc/nato/?branch=master)
 
 `nato` is a [Ruby][1] script for converting a given string to its NATO
 phonetic equivalent.
@@ -13,7 +13,8 @@ The current version of `nato` is `0.0.1`.
 `$HOME/bin` is in my path for all local, non-system scripts.  If you're
 not already placing or [symlinking][4] your scripts to a centralized
 `bin`-type directory, I strongly encourage you to consider it.  It makes
-life easy.
+life easy.  The examples assume that you've symlinked (or renamed)
+`nato.rb` to `nato`.
 
 Once you've done the above, simply invoke the script by typing:
 
@@ -21,8 +22,8 @@ Once you've done the above, simply invoke the script by typing:
 nato Test String
 ```
 
-> You may need to make the script executable.  Use the 
-> `chmod 700 /PATH/TO/nato` to do so.
+> You may need to make the script executable.  Use the
+> `chmod 700 /PATH/TO/nato` command to do so.
 
 ## Examples
 
