@@ -3,7 +3,6 @@ require_relative '../nato'
 require 'minitest/autorun'
 
 class TestNato < Minitest::Test
-
   # Creates a new Nato object
   def setup
     @nato = Nato.new
