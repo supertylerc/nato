@@ -39,7 +39,7 @@ class Nato
       if @nato.key?(c.upcase.to_sym)
         phonetic_string += "#{@nato[c.upcase.to_sym]} "
       else
-        phonetic_string += "#{c}"
+        phonetic_string += "#{c}-"
       end
     end
     phonetic_string
