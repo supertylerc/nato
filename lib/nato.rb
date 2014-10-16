@@ -43,6 +43,7 @@ class Nato
         phonetic_string += "#{c}-"
       end
     end
+    phonetic_string.chomp!('-') if phonetic_string.end_with? '-'
     phonetic_string
   end
 end
